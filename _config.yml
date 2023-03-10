@@ -1,0 +1,135 @@
+layout: sidebar
+style: light
+
+plugins: 
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope: 
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9 
+  exclude:
+    archived: false 
+    forks: false
+    projects: 
+      - VisualizingTheFuture2
+      - VisualizingtheFuture.github.io
+      - visualizations
+      - intro-to-flexdashboard
+  
+about:
+  - name: D
+    position: C
+    period: O
+
+ending:
+  - name: D
+    position: C
+    period: O
+
+
+works:
+  - name: Software Engineer
+    position: • Remote, India
+    position2: Sigma Infosolutions Ltd
+    period: Sep 2020 - Jun 2022 
+
+  - name: Machine Learning Engineer
+    position: • Gandhinagar, India
+    position2: Playpower Labs
+    period: Dec 2019 - May 2020
+
+  - name: Data Science Intern 
+    position: • Gandhinagar, India
+    position2: Playpower Labs
+    period: Jun 2019 - Aug 2019
+
+
+
+education:
+  - name: University of California, San Diego • La Jolla, CA
+    position: M.S. in Data Science
+    period: Sep 2022 - exp May 2024
+
+  - name: Indian Institute of Technology, Madras • Chennai, India
+    position: Graduate Diploma in Data Science
+    period: Jan 2022 - Dec 2022
+
+  - name: Indus University • Ahmedabad, India
+    position: B.Tech in Computer Science and Engineering
+    period: Aug 2016 - Jun 2020
+  
+
+
+topics:
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+
+  - name: R
+    web_url: https://github.com/topics/R
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/r/r.png
+
+  - name: SQL
+    web_url: https://github.com/topics/sql
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
+
+  - name: MATLAB
+    web_url: https://github.com/topics/matlab
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png
+
+  - name: scikit-learn
+    web_url: https://github.com/topics/scikit-learn
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scikit-learn/scikit-learn.png
+
+  - name: TensorFlow
+    web_url: https://github.com/topics/tensorflow
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png
+
+  - name: AWS
+    web_url: https://github.com/topics/aws
+    image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png
+
+  - name: Docker
+    web_url: https://github.com/topics/docker
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
+
+  - name: Kubernetes
+    web_url: https://github.com/topics/kubernetes
+    image_url: https://raw.githubusercontent.com/github/explore/01ea2a586e5da744792d0ccfce2f68b861f29301/topics/kubernetes/kubernetes.png
+
+
+
+social_media:
+  #stackoverflow: your_username
+  linkedin: akansha-lalwani/
+  # facebook: your_username
+  # instagram: your_username 
+  # behance: your_username
+  # dribbble: your_username
+  # hackerrank: your_username
+  # keybase: your_username
+  # mastodon: your_username
+  # telegram: your_username
+  # twitter: your_username
+  # medium: your_username
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+
