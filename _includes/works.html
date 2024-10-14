@@ -3,8 +3,8 @@
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4 text-list">
   <ul>
     {% for work in site.works %}
-<!--     <p style = "margin: 0 0 0 0; class="text-normal">
-        <!-- Replace nested <p> with <div> -->
+<!--  <p style = "margin: 0 0 0 0; class="text-normal"> -->
+        <!-- Replace nested <p> with <div> --> 
     <div style="margin: 0 0 0 0;" class="text-normal">
         <p style = "margin-left: 25px" ><b>{{ work.name }}</b>{{ work.position }}</p>
         <i><p style = "margin-left: 25px" class="text-normal">{{ work.position2 }}</p></i>
@@ -13,7 +13,7 @@
         <ul style="margin-left: 25px;">
           {% for detail in work.details %}
           <li class="task">{{ detail.task }}</li>
-          <li class="impact-highlight" style="background-color: #DFF0D8; padding: 10px; border-radius: 8px; margin-top: 5px;">
+          <li class="impact-highlight" style="background-color: #F8D7DA; padding: 10px; border-radius: 8px; margin-top: 5px;">
             <strong>{{ detail.impact }}</strong>
           </li> <!-- Always-visible impact with customized styling -->
           {% endfor %}
