@@ -55,13 +55,15 @@
 
 // New styles for work experience tasks and impacts - added 10/14
 .impact-highlight {
-  background-color: #F8D7DA;  /* Soft pink to match the sidebar color */
-  color: #5A5A5A;             /* Medium grey for good contrast against the pink */
-  padding: 10px;              /* Add padding for space around the text */
-  border-radius: 8px;         /* Rounded corners for a clean look */
+  background-color: #F8D7DA;  /* Soft pink background */
+  color: #5A5A5A;             /* Grey text */
+  padding: 10px;              /* Padding around the text */
+  border-radius: 8px;         /* Rounded corners */
   margin-top: 5px;            /* Space between the task and impact */
-  font-weight: bold;          /* Highlight the impact with bold text */
-  border: 1px solid #E1E1E1;  /* Light grey border to match the theme */
+  font-weight: bold;          /* Bold text for emphasis */
+  border: 1px solid #E1E1E1;  /* Light grey border */
+  display: block;             /* Ensures it behaves like a block element */
+  word-wrap: break-word;      /* Wrap long text to the next line if needed */
 }
 
 .work-item h3, .work-item span, .work-item p {
@@ -70,10 +72,7 @@
 }
 
 .task {
-  margin-bottom: 4px;        // Space between tasks
-  cursor: pointer;           // Pointer cursor on hover
-  &:hover {
-    text-decoration: underline;  // Underline on hover to indicate interactivity
-  }
+  text-decoration: none;  /* Ensure no underline */
+  cursor: default;        /* No pointer cursor */
+  color: inherit;         /* Ensure it inherits the normal text color */
 }
-
