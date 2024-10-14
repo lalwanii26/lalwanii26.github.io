@@ -54,27 +54,26 @@
 }
 
 // New styles for work experience tasks and impacts - added 10/14
+.impact-highlight {
+  background-color: #f0f0f0;  // A soft gray background, adjust the color as needed
+  color: #333;                // Dark text for contrast on a light background
+  padding: 8px;               // Some padding around the text
+  border-radius: 4px;         // Rounded corners for a softer look
+  margin-top: 4px;            // Space from the previous element
+  font-weight: bold;          // Making text bold to stand out
+  display: inline-block;      // Make the highlight inline-block for better control
+}
+
+.work-item h3, .work-item span, .work-item p {
+  display: block;            // Ensuring these elements are block-level
+  margin-bottom: 4px;        // Reduce space between elements
+}
+
 .task {
-  transition: all 0.3s ease;
-  cursor: pointer;
+  margin-bottom: 4px;        // Space between tasks
+  cursor: pointer;           // Pointer cursor on hover
   &:hover {
-    color: #007BFF; // Blue color on hover
-    transform: scale(1.05); // Slightly larger on hover
+    text-decoration: underline;  // Underline on hover to indicate interactivity
   }
 }
 
-.impact {
-  display: none; // Hide impact by default
-  color: #d35400; // Orange color for impact
-  font-weight: bold;
-}
-
-.task:hover + .impact {
-  display: inline; // Show impact when task is hovered
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
