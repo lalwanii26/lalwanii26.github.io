@@ -4,7 +4,7 @@
   <ul>
     {% for work in site.works %}
 <!--     <p style = "margin: 0 0 0 0; class="text-normal">
-        <!-- Replace nested <p> with <div> --> -->
+        <!-- Replace nested <p> with <div> -->
     <div style="margin: 0 0 0 0;" class="text-normal">
         <p style = "margin-left: 25px" ><b>{{ work.name }}</b>{{ work.position }}</p>
         <i><p style = "margin-left: 25px" class="text-normal">{{ work.position2 }}</p></i>
@@ -14,7 +14,7 @@
           {% for detail in work.details %}
           <li class="task">{{ detail.task }}</li>
           <li class="impact-highlight" style="background-color: #DFF0D8; padding: 10px; border-radius: 8px; margin-top: 5px;">
-            Impact: <strong>{{ detail.impact }}</strong>
+            <strong>{{ detail.impact }}</strong>
           </li> <!-- Always-visible impact with customized styling -->
           {% endfor %}
         </ul>
