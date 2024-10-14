@@ -9,6 +9,16 @@
         <i><p style = "margin-left: 25px" class="text-normal">{{ education.position2 }}</p></i>
         <p style = "margin-left: 25px" class="text-normal">{{ education.period }}</p>
     </p>
+    <!-- added on 10/14 -->
+    {% if education.details %}
+          <ul style="margin-left: 50px;">
+            {% for detail in education.details %}
+              <li class="text-normal">{{ detail }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+    </li>
+    <!-- added on 10/14 -->
     <br>
     {% endfor %}
   </ul>
