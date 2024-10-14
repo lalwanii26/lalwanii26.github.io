@@ -1,5 +1,5 @@
 // interactive.js - added 10/14
-document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {
   // Attach click event listeners to all elements with the class 'task'
   const tasks = document.querySelectorAll('.task');
   tasks.forEach(task => {
@@ -11,3 +11,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+*/
