@@ -41,27 +41,98 @@ ending:
     position: C
     period: O
 
-
+# Work Experience Section - updated on 10/14 - added task and impact
 works:
-  - name: Research Assistant
-    position: • La Jolla, CA
-    position2: University of California, San Diego
-    period: Mar 2023 - Present 
-    
-  - name: Software Engineer
-    position: • Remote, India
-    position2: Sigma Infosolutions Ltd
-    period: Sep 2020 - Jun 2022 
+  - name: Data Scientist
+    position: • Remote
+    position2: Kaiser Permanente
+    period: Jun 2024 – Present
+    details:
+      # Developed a smart messaging tool
+      - task: Developed a Smart Messaging Tool using Few-shot Learning with Sentence Transformers.
+        impact: Achieved an F1 score of 0.86 in real-time message classification.
+      # Led development of NER models
+      - task: Led development of RoBERTa-based NER models.
+        impact: Achieved an F1 score of 0.97 for extracting critical numeric indicators from patient messages.
+      # Built ontology-based knowledge graphs
+      - task: Analyzed data with BERTopic and built custom ontology-based knowledge graphs.
+        impact: Boosted information retrieval accuracy by 60%.
 
   - name: Machine Learning Engineer
-    position: • Gandhinagar, India
-    position2: Playpower Labs
-    period: Dec 2019 - May 2020
+    position: • La Jolla, CA
+    position2: UC San Diego Health
+    period: Sep 2023 – Jun 2024
+    details:
+      # Developed AI-driven perioperative system
+      - task: Developed an AI-driven perioperative system using BERT and multimodal datasets.
+        impact: Achieved 98.8% accuracy in predictive modeling and reduced clinician review time by 50%.
+      # Engineered ML infrastructure on AWS
+      - task: Engineered robust ML infrastructure on AWS.
+        impact: Enhanced system availability and fault tolerance.
 
-  - name: Data Science Intern 
+  - name: AI/ML Graduate Intern
+    position: • San Francisco, CA
+    position2: Kaiser Permanente
+    period: Jun 2023 – Oct 2023
+    details:
+      # Designed an in-house optimization algorithm
+      - task: Designed and implemented an in-house optimization algorithm for managing surgical devices.
+        impact: Saved over $1M and reduced logistics costs.
+      # Analyzed HR and network records
+      - task: Analyzed 100,000+ security, HR, and network records using Python, SQL, and R.
+        impact: Cut operational costs by 45%.
+
+  - name: Data Scientist
+    position: • Bangalore, India
+    position2: Sigma Infosolutions Ltd
+    period: Jun 2020 – Sep 2022
+    details:
+      # Developed and optimized ETL workflows
+      - task: Developed and optimized ETL workflows using Pentaho Data Integration, extracting over 1M daily records from RDBMS.
+        impact: Enhanced data scalability and processing capabilities.
+      # Loaded extracted data into SQL warehouse
+      - task: Loaded extracted data into an SQL data warehouse, enabling better reporting and analysis.
+        impact: Improved overall data handling efficiency by 50%.
+      # Customized dashboards for financial reporting
+      - task: Customized and maintained over 25 dashboards in Power BI, Tableau, and Qlik Sense for a Fortune 500 company.
+        impact: Streamlined financial reporting and analysis, increasing sales by 15% through actionable insights.
+      # Led a team of data scientists
+      - task: Led a team of data scientists and engineers to develop scalable data pipelines and storage solutions in SQL and Snowflake.
+        impact: Improved query performance by 30%, leading to better decision-making capabilities.
+      # Implemented CI/CD best practices
+      - task: Implemented CI/CD best practices to support agile development and rapid prototyping within a cloud-based infrastructure.
+        impact: Increased deployment efficiency and system reliability across data processing environments.
+
+  - name: Machine Learning Intern
     position: • Gandhinagar, India
     position2: Playpower Labs
-    period: Jun 2019 - Aug 2019
+    period: Jun 2019 – May 2020
+    details:
+      # Developed machine learning pipelines using AWS
+      - task: Developed machine learning pipelines using AWS services.
+        impact: Reduced model training time by 30% and operational costs by 25%.
+
+
+# works:
+#   - name: Research Assistant
+#     position: • La Jolla, CA
+#     position2: University of California, San Diego
+#     period: Mar 2023 - Present 
+    
+#   - name: Software Engineer
+#     position: • Remote, India
+#     position2: Sigma Infosolutions Ltd
+#     period: Sep 2020 - Jun 2022 
+
+#   - name: Machine Learning Engineer
+#     position: • Gandhinagar, India
+#     position2: Playpower Labs
+#     period: Dec 2019 - May 2020
+
+#   - name: Data Science Intern 
+#     position: • Gandhinagar, India
+#     position2: Playpower Labs
+#     period: Jun 2019 - Aug 2019
 
 
 
