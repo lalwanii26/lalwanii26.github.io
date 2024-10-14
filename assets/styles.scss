@@ -52,3 +52,29 @@
 .min-height-full {
   min-height: 100vh;
 }
+
+// New styles for work experience tasks and impacts - added 10/14
+.task {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    color: #007BFF; // Blue color on hover
+    transform: scale(1.05); // Slightly larger on hover
+  }
+}
+
+.impact {
+  display: none; // Hide impact by default
+  color: #d35400; // Orange color for impact
+  font-weight: bold;
+}
+
+.task:hover + .impact {
+  display: inline; // Show impact when task is hovered
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
